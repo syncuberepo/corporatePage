@@ -1,1 +1,1 @@
-# coporatePage
+# corporatePage
