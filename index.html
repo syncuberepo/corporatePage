@@ -118,13 +118,14 @@ class = "aioseop-schema" > {
 $(window).on('load',function(){
     setTimeout(function(){
         $(".load_box").fadeOut(1000);
-    }, 3000);
+    }, 1500);
 });
 
 </script>
 <script>
 	function start() {
 		var v = document.getElementById("video");
+        v.playbackRate = 2.0;
 		v.play();
 	}
 </script>
@@ -183,7 +184,7 @@ $(window).on('load',function(){
                 <h2 class="midashi40">お知らせ</h2>
             </div>
             <div class="top_right">
-                <ul class="info_list">
+                <ul class="top_info_list">
                     <li>
                         <p class="t-b">2023/10/31</p>
                         <p>医療・介護現場向け自動シフト作成サービス「シンクロシフト」をプレスリリースしました。プレスリリースは<a href="https://prtimes.jp/main/html/rd/p/000000001.000121407.html" target="_blank">こちら</a>。</p>
@@ -262,13 +263,11 @@ $(window).on('load',function(){
             <div class="f_logo"><img src="images/top1.png" width="220" height="52" alt="SynCube（サインキューブ）"></div>
             <div class="f_right">
                 <p class="f_privacy"><a href="privacypolicy.html">プライバシーポリシー</a></p>
+                <p class="shiftlife t-b"><a href="https://shiftlife.jp/" target="_blank">Shift Life (シフトライフ)</a></p>
                 <p class="copy font2">© <strong>SynCube（サインキューブ）</strong></p>
             </div>
         </div>
     </footer>
-
-
-
 </body>
 </html>
 

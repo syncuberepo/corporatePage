@@ -1205,7 +1205,7 @@ video {
   font-weight: bold;
 }
 
-.info_section .info_list li {
+.info_section .top_info_list li {
   margin-bottom: 18px;
 }
 
@@ -1246,6 +1246,21 @@ video {
   padding: 3px 2px 0 3px;
   line-height: 1;
   margin-bottom: 4px;
+}
+
+/*********************************************************
+
+    フッター
+
+**********************************************************/
+.shiftlife {
+  letter-spacing: 0;
+  padding-right: 40px;
+}
+
+.shiftlife > a {
+  color: black;
+  font-weight: normal;
 }
 
 /* PC用
@@ -2501,19 +2516,30 @@ video {
     font-size: 18px;
     font-weight: bold;
   }
-}
 
   /*********************************************************
 
     お知らせ
 
-**********************************************************/
-.info_list {
+  **********************************************************/
+  .info_list {
   width: 100%;
-}
-.info_list_item {
+  }
+  .info_list_item {
   gap: 8px;
+  }
+
+  /*********************************************************
+
+  フッター
+
+  **********************************************************/
+  .shiftlife {
+  padding: 0;
+  margin-top: 30px;
+  }
 }
+
 
 /* スマートフォン 縦(ポートレート) */
 @media only screen and (max-width: 480px) {
