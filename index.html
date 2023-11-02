@@ -118,13 +118,14 @@ class = "aioseop-schema" > {
 $(window).on('load',function(){
     setTimeout(function(){
         $(".load_box").fadeOut(1000);
-    }, 3000);
+    }, 1500);
 });
 
 </script>
 <script>
 	function start() {
 		var v = document.getElementById("video");
+        v.playbackRate = 2.0;
 		v.play();
 	}
 </script>
@@ -140,7 +141,7 @@ $(window).on('load',function(){
             </video>
         </div>
     </div>
-    
+
     <header class="cy_header container1760">
         <h1 class="logo"><a href="https://hp.syncube.co.jp/"><img src="images/top1.png" width="220" height="52" alt="SynCube（サインキューブ）"></a></h1>
     </header>
@@ -157,6 +158,7 @@ $(window).on('load',function(){
 					<ul class="page_link">
                         <li>
                             <div class="minimenu">
+                                <p><a href="info.html">お知らせ</a></p>
                                 <p><a href="about.html">SynCubeとは</a></p>
                                 <p><a href="mission.html">ミッション</a></p>
                                 <p><a href="company.html">会社概要</a></p>
@@ -169,12 +171,29 @@ $(window).on('load',function(){
 			</div>
 		</div>
 	</div>
-    
+
     <section class="top_main">
         <h2>医療・介護の<br>未来を<span class="color_b">創造</span>する</h2>
         <div class="main_img"><img src="images/top2.jpg" width="1325" height="688" alt="メイン画像"></div>
     </section>
-    
+
+    <section class="bg_blue_e6fcf2 info_section" style="padding: 50px 0;">
+        <div class="container1280 top_flex">
+            <div class="top_left">
+                <p class="eng_midsahi font2 color_b"><span class="color_p">I</span>NFO</p>
+                <h2 class="midashi40">お知らせ</h2>
+            </div>
+            <div class="top_right">
+                <ul class="top_info_list">
+                    <li>
+                        <p class="t-b">2023/10/31</p>
+                        <p>医療・介護現場向け自動シフト作成サービス「シンクロシフト」をプレスリリースしました。プレスリリースは<a href="https://prtimes.jp/main/html/rd/p/000000001.000121407.html" target="_blank">こちら</a>。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section class="pt-200 pb-180 container1600">
         <div class="flex_box item_center">
             <div class="flex_50 order2">
@@ -187,7 +206,7 @@ $(window).on('load',function(){
             <div class="flex_45 img100 minimt-60"><img src="images/company1.jpg" width="746" height="369" alt="SynCubeとは"></div>
         </div>
     </section>
-    
+
     <section class="bg_blue_e6fcf2 padding170">
         <div class="container1280 top_flex">
             <div class="top_left">
@@ -200,7 +219,7 @@ $(window).on('load',function(){
             </div>
         </div>
     </section>
-    
+
     <section class="padding180 container1320">
         <div class="flex_box item_center">
             <div class="flex_50 order2">
@@ -225,7 +244,7 @@ $(window).on('load',function(){
             </div>
         </div>
     </section>
-    
+
     <section class=" padding170">
         <div class="container1280 top_flex">
             <div class="top_left">
@@ -244,13 +263,11 @@ $(window).on('load',function(){
             <div class="f_logo"><img src="images/top1.png" width="220" height="52" alt="SynCube（サインキューブ）"></div>
             <div class="f_right">
                 <p class="f_privacy"><a href="privacypolicy.html">プライバシーポリシー</a></p>
+                <p class="shiftlife t-b"><a href="https://shiftlife.jp/" target="_blank">Shift Life (シフトライフ)</a></p>
                 <p class="copy font2">© <strong>SynCube（サインキューブ）</strong></p>
             </div>
         </div>
     </footer>
-    
-
-
 </body>
 </html>
 

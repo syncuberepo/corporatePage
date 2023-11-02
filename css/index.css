@@ -924,6 +924,18 @@ video {
   letter-spacing: 0.05em;
 }
 
+.main_in h2.info_h2 {
+  font-size: 50px;
+  line-height: 1.3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 14px;
+  z-index: 100;
+  letter-spacing: 0.05em;
+}
+
 .main_in h2 .eng {
   margin-left: 20px;
   font-size: 20px;
@@ -1191,6 +1203,64 @@ video {
 .midashi25 {
   font-size: 25px;
   font-weight: bold;
+}
+
+.info_section .top_info_list li {
+  margin-bottom: 18px;
+}
+
+/*********************************************************
+
+    お知らせ
+
+**********************************************************/
+.info_list {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+}
+
+.info_list_item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  padding: 0 0 16px 2px;
+  border-bottom: 1px solid #999;
+}
+
+.info_list_item_date {
+  font-weight: 700;
+  font-size: 1.2em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.info_list_item_new {
+  margin-left: 20px;
+  border-radius: 4px;
+  border: 1px solid #E50012;
+  color: #E50012;
+  font-size: 0.8em;
+  padding: 3px 2px 0 3px;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+/*********************************************************
+
+    フッター
+
+**********************************************************/
+.shiftlife {
+  letter-spacing: 0;
+  padding-right: 40px;
+}
+
+.shiftlife > a {
+  color: black;
+  font-weight: normal;
 }
 
 /* PC用
@@ -2302,6 +2372,12 @@ video {
     display: block;
     font-size: 32px;
   }
+  .main_in h2.info_h2 {
+    font-size: 32px;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .main_in h2 .eng {
     margin: 0;
     font-size: 16px;
@@ -2440,7 +2516,30 @@ video {
     font-size: 18px;
     font-weight: bold;
   }
+
+  /*********************************************************
+
+    お知らせ
+
+  **********************************************************/
+  .info_list {
+  width: 100%;
+  }
+  .info_list_item {
+  gap: 8px;
+  }
+
+  /*********************************************************
+
+  フッター
+
+  **********************************************************/
+  .shiftlife {
+  padding: 0;
+  margin-top: 30px;
+  }
 }
+
 
 /* スマートフォン 縦(ポートレート) */
 @media only screen and (max-width: 480px) {
